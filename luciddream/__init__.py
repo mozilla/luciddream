@@ -7,7 +7,7 @@
 import os
 import sys
 from marionette.marionette_test import MarionetteTestCase, MarionetteJSTestCase
-from marionette.errors import ScriptTimeoutException
+from marionette_driver.errors import ScriptTimeoutException
 
 class LucidDreamTestCase(MarionetteTestCase):
     def __init__(self, marionette_weakref, browser=None, **kwargs):
